@@ -13,9 +13,9 @@ body {
   top: 0;
   height: 80px;
   width: 100%;
-  padding: 0 0 8px;
+  padding: 0 0 0px;
   background-color: #fff;
-  border: 1.5px solid #dadce3;
+  border: 0.5px solid #dadce3;
 }
 
 .container {
@@ -86,8 +86,8 @@ body {
   white-space: nowrap;
   vertical-align: middle;
   border: 0;
-  padding: 0.375rem 0.75rem;
-  font-size: 0.9rem;
+  padding: 4px 9px;
+  font-size: 18px;
   line-height: 1.5;
   border-radius: 0.3rem;
   font-weight: 700;
@@ -97,8 +97,8 @@ body {
 
 .container .header.action .btn-about {
   margin-right: 8px;
-  color: #fff;
-  background-color: rgb(25, 136, 255);
+  color: rgb(25, 136, 255);
+  background-color: transparent;
   transition-duration: 0.5s;
   transition-timing-function: 0.5s;
 }
@@ -118,9 +118,8 @@ body {
 }
 
 .container .header.action .btn-join:focus {
-  margin-right: 10px;
-  color: rgb(0, 100, 208);
-  background-color: transparent;
+  margin-right: 12px;
+  color: #fff;
+  background-color: rgb(71, 159, 252);
   border: 1px solid rgb(25, 136, 255);
-  border: 0;
 }
